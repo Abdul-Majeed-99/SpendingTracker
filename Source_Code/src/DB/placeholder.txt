@@ -1,0 +1,5 @@
+DbConnect.java will be added here by Muhammad Hassan (Roll No: 2501819).
+This class handles the central database connection for the entire application. 
+Instead of opening a separate database connection inside every button and form, 
+all modules share one single connection through this class. This keeps the code clean,
+ prevents resource leakage, and ensures stable database access across all windows.
